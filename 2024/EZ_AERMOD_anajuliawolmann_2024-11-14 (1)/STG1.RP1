@@ -1,0 +1,263 @@
+ AERMET_SETUP
+ SUCCESSFUL
+
+ AERMET VERSION  23132
+
+ START PROCESSING DATE/TIME: NOVEMBER 14, 2024  13:37:22 PM
+
+ RUNSTREAM CONTROL FILE: aermet.inp
+
+
+ ****************************  INPUT SUMMARY **************************** 
+
+ PROCESSING STAGES 1
+
+
+
+ 1.  JOB FILE NAMES
+
+ MESSAGES   OPEN     STG1.MG1
+ REPORT     OPEN     STG1.RP1
+ DEBUG      NO FILE
+
+
+
+ 2. UPPERAIR DATA
+
+ PROCESSING DATES: 01/01/2022 - 01/01/2023
+
+                    SITE ID     LATITUDE    LONGITUDE     TIME ADJUSTMENT
+                   --------     --------    ---------     ---------------
+ LOCATION:            99999       -27.67       -48.55             3
+
+ DATA FILE:      OPEN      UPPERAIR.UA
+ EXTRACT FILE:   OPEN      STG1.UPEXT
+ QAOUT FILE:     OPEN      STG1.UQA
+
+ UPPER AIR DATA ABOVE 5000 NOT EXTRACTED
+
+ UPPER AIR AUTOMATIC DATA CHECKS ARE: OFF
+
+
+
+ 3. SURFACE DATA
+
+ PROCESSING DATES: 01/01/2022 - 01/01/2023
+
+                    SITE ID     LATITUDE    LONGITUDE     TIME ADJUSTMENT    ELEVATION
+                   --------     --------    ---------     ---------------    ---------
+ LOCATION:            66666       -28.45       -48.97             0              10.00
+
+ DATA FILE:      OPEN      LOCAL.SAM
+ EXTRACT FILE:   OPEN      STG1.SEXT
+ QAOUT FILE:     OPEN      STG1.SQA
+
+
+
+ 4. ONSITE DATA
+
+ NO PROCESSING REQUESTED
+
+
+
+
+ 5. PROG DATA
+
+ NO PROCESSING REQUESTED
+
+
+
+
+ 6. METPREP DATA
+
+ NO PROCESSING REQUESTED
+
+
+
+ ****************************  QA SUMMARY **************************** 
+
+
+ UPPERAIR DATA
+
+
+ VARIABLE   MISSING VALUE   LOWER BOUND          UPPER BOUND
+ UAPR       99999.00        <= 500.00            >= 1099.90          
+ UAHT      -99999.00        < 0.00               > 5000.00           
+ UATT       -9990.00        <= -35.00            >= 35.00            
+ UATD       -9990.00        <= -35.00            >= 35.00            
+ UAWD         999.00        < 0.00               > 360.00            
+ UAWS        9990.00        <= 0.00              >= 50.00            
+
+ LEVEL                VARIABLE       #          #        LOWER       UPPER        %
+                                    OBS      MISSING     BOUND       BOUND     ACCEPTED
+         SURFACE        UAPR        699          0          0          0        100.00
+                        UAHT        699          0          0          0        100.00
+                        UATT        699          0          0          0        100.00
+                        UATD        699          0          0          0        100.00
+                        UAWD        699          0          0          0        100.00
+                        UAWS        699          0         41          0         94.13
+
+      0 -  500 M        UAPR       1263          0          0          0        100.00
+                        UAHT       1263          0          0          0        100.00
+                        UATT       1263          0          0          0        100.00
+                        UATD       1263          0          0          0        100.00
+                        UAWD       1263        506          0          0         59.94
+                        UAWS       1263        506          0          0         59.94
+
+    500 - 1000 M        UAPR       1224          0          0          0        100.00
+                        UAHT       1224          0          0          0        100.00
+                        UATT       1224          0          0          0        100.00
+                        UATD       1224          0          0          0        100.00
+                        UAWD       1224        477          0          0         61.03
+                        UAWS       1224        477          0          0         61.03
+
+   1000 - 1500 M        UAPR        840          0          0          0        100.00
+                        UAHT        840          0          0          0        100.00
+                        UATT        840          0          0          0        100.00
+                        UATD        840          0          1          0         99.88
+                        UAWD        840        578          0          0         31.19
+                        UAWS        840        578          1          0         31.07
+
+   1500 - 2000 M        UAPR       1296          0          0          0        100.00
+                        UAHT       1296          0          0          0        100.00
+                        UATT       1296          0          0          0        100.00
+                        UATD       1296          0         11          0         99.15
+                        UAWD       1296        661          0          0         49.00
+                        UAWS       1296        661          0          0         49.00
+
+   2000 - 2500 M        UAPR        756          0          0          0        100.00
+                        UAHT        756          0          0          0        100.00
+                        UATT        756          0          0          0        100.00
+                        UATD        756          0         35          0         95.37
+                        UAWD        756        667          0          0         11.77
+                        UAWS        756        667          0          0         11.77
+
+   2500 - 3000 M        UAPR        631          0          0          0        100.00
+                        UAHT        631          0          0          0        100.00
+                        UATT        631          0          0          0        100.00
+                        UATD        631          0         46          0         92.71
+                        UAWD        631        559          0          0         11.41
+                        UAWS        631        559          1          0         11.25
+
+   3000 - 3500 M        UAPR       1242          0          0          0        100.00
+                        UAHT       1242          0          0          0        100.00
+                        UATT       1242          0          0          0        100.00
+                        UATD       1242          0         92          0         92.59
+                        UAWD       1242        483          0          0         61.11
+                        UAWS       1242        483          0          0         61.11
+
+   3500 - 4000 M        UAPR        614          0          0          0        100.00
+                        UAHT        614          0          0          0        100.00
+                        UATT        614          0          0          0        100.00
+                        UATD        614          0         53          0         91.37
+                        UAWD        614        553          0          0          9.93
+                        UAWS        614        553          0          0          9.93
+
+        > 4000 M        UAPR       1763          0        247          0         85.99
+                        UAHT       1763          0          0        696         60.52
+                        UATT       1763          0          0          0        100.00
+                        UATD       1763          0        467          0         73.51
+                        UAWD       1763       1361          0          0         22.80
+                        UAWS       1763       1361          1          0         22.75
+
+ NON-QA SUMMARY CHECKS
+
+ CALM WIND CONDITIONS (WS=0, WD=0):       44
+ ZERO WIND SPEED; NON-ZERO WIND DIRECTION:        0
+ DEW POINT GREATER THAN DRY BULB TEMPERATURE:        0
+ NUMBER OF SOUNDINGS THAT DO NOT EXTEND TO 5000 M:        3
+
+ NUMBER OF DAYS WITH NO SOUNDINGS:   13
+ SEE MESSAGE CODE I28 IN MESSAGE FILE FOR DATES
+
+ NUMBER OF DAYS WITH SOUNDINGS BUT NO AM SOUNDINGS:    0
+
+
+ SURFACE DATA
+
+ VARIABLE   MISSING VALUE   LOWER BOUND          UPPER BOUND
+ PRCP          -9.00        < 0.00               > 254.00            
+ SLVP       99999.00        <= 900.00            >= 1099.90          
+   PW        9999.00        < 0.00               > 9.00              
+   TH        9999.00        < 0.00               > 800.00            
+ TMPD         999.00        <= -30.00            >= 40.00            
+ DPTP         999.00        <= -65.00            >= 35.00            
+ RHUM         999.00        < 0.00               > 100.00            
+ WDIR         999.00        < 0.00               > 360.00            
+ WSPD         999.00        < 0.00               > 50.00             
+ CLHT         999.00        < 0.00               > 300.00            
+ HZVS       99999.00        < 0.00               > 1640.00           
+
+ VARIABLE       #          #        LOWER       UPPER        %
+               OBS      MISSING     BOUND       BOUND     ACCEPTED
+ PRCP         8758          0          0          0        100.00
+ SLVP         8758       8758          0          0          0.00
+   PW         8758          0          0          0        100.00
+   TH         8758          0          0          0        100.00
+ TMPD         8758          3          0          0         99.97
+ DPTP         8758          3          0          0         99.97
+ RHUM         8758          3          0          0         99.97
+ WDIR         8758        230          0          0         97.37
+ WSPD         8758          0          0          3         99.97
+ CLHT         8758          0          0          0        100.00
+ HZVS         8758       8758          0          0          0.00
+
+ WIND, TEMPERATURE, AND PRECIPITATION CHECKS
+ NUMBER OF HOURS:
+    110 CALM WINDS (WDIR = 0, WSPD = 0)
+      0 WDIR = 0, WSPD > 0
+      0 WDIR > 0, WSPD = 0
+      0 WINDS FLAGGED AS VARIABLE
+      0 TEMPERATURE < DEWPOINT
+      0 PRECIP WITHOUT WEATHER CODE
+      0 WEATHER CODE WITHOUT PRECIP
+
+
+ ****************************  MESSAGE SUMMARY **************************** 
+
+
+
+ ERROR MESSAGES        0 MESSAGES
+
+
+
+ WARNING MESSAGES        4 MESSAGES
+
+ W02:        1
+ W43:        1
+ W50:        1
+ W54:        1
+
+
+ INFORMATION MESSAGES       28 MESSAGES
+
+ I01:        1
+ I20:        2
+ I22:        1
+ I23:        1
+ I24:        1
+ I25:        1
+ I26:        1
+ I28:       13
+ I40:        2
+ I46:        1
+ I47:        1
+ I50:        1
+ I53:        1
+ I56:        1
+
+
+ QA MESSAGES    31297 MESSAGES
+
+ Q23:    11690
+ Q24:      996
+ Q25:      696
+ Q28:       47
+ Q40:    17755
+ Q42:        3
+ Q43:      110
+
+
+ AERMET FINISHED SUCCESSFULLY
+
+ END PROCESSING DATE/TIME: NOVEMBER 14, 2024  13:37:23 PM

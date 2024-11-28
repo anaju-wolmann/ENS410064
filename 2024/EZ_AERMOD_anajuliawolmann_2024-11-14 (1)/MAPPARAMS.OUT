@@ -1,0 +1,67 @@
+** AERMAP - VERSION 18081                                              11/14/24
+**                                                                     13:37:24
+
+  
+ MAP PARAMETERS
+
+ TYPDAT:  NED 
+
+ From CNRCNV:
+
+ NED File #:         1
+ NED File Name: mergedSRTM.tif
+
+ Horizontal Datum: World Geodetic System of 1984           
+
+ Corner Coordinates of NED Data:
+
+ Decimal Degrees (negative for West longitude):
+            SW Corner     NW Corner     NE Corner     SE Corner
+   Lon:    -49.574444    -49.574444    -48.370000    -48.370000
+   Lat:    -29.003333    -27.902778    -27.902778    -29.003333
+
+ Arc-seconds (negative for West longitude):
+            SW Corner     NW Corner     NE Corner     SE Corner
+   Lon:   -178468.000   -178468.000   -174132.000   -174132.000
+   Lat:   -104412.000   -100450.000   -100450.000   -104412.000
+
+ Meters:
+                 SW Corner     NW Corner     NE Corner     SE Corner
+   Easting:     638852.206    640298.011    758871.404    756201.615
+   Northing:   6790807.437   6912750.471   6910785.689   6788792.768
+   UTM Zone:  -22 based on SW corner
+  
+
+ From CHKADJ      
+
+ NED File #:      1
+ NED:mergedSRTM.tif                       <-- Raw header data segment
+ NED:mergedSRTM.tif                       <-- Refined header data segment
+   DEM Level Code:    NED 
+   Planimetric Ref: Geographic Coordinates   
+     North-South Node separation:   1.0000  arc-seconds
+     East-West Node separation:     1.0000  arc-seconds
+   UTM/State Zone # -22
+   Horizontal Datum: World Geodetic System of 1984           
+   Num. of Profiles:  4337
+   SW Corner Lat/Lon (deg.):      -29.00333     -49.57444
+   SW Corner Lat/Lon (sec.):    -104412.000   -178468.000
+   Latitude Range =  1.1006 Deg.;  Longitude Range =  1.2044 Deg.
+   Writing corner coords; UTM then Dec.Deg (negative for West longitude):
+     Southwest Corner        Northwest Corner        Northeast Corner        Southeast Corner
+     Easting    Northing     Easting    Northing     Easting    Northing     Easting    Northing 
+     638852.21  6790807.44   640298.01  6912750.47   758871.40  6910785.69   756201.62  6788792.77
+     Latitude   Longitude    Latitude   Longitude    Latitude   Longitude    Latitude   Longitude
+    -29.0033    -49.5744    -27.9028    -49.5744    -27.9028    -48.3700    -29.0033    -48.3700
+
+  
+
+
+ From INITER_NED:
+
+ MIN and MAX Elevations for NED files:
+
+ NED File #:      1
+ NED:mergedSRTM.tif                      
+   Min. Elevation:    -26.0 meters
+   Max. Elevation:   1824.0 meters

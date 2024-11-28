@@ -1,0 +1,480 @@
+ AERMET_SETUP
+ SUCCESSFUL
+
+ AERMET VERSION  23132
+
+ START PROCESSING DATE/TIME: NOVEMBER 14, 2024  13:37:23 PM
+
+ RUNSTREAM CONTROL FILE: aermet.inp
+
+
+ ****************************  INPUT SUMMARY **************************** 
+
+ PROCESSING STAGES 2
+
+
+
+ 1.  JOB FILE NAMES
+
+ MESSAGES   OPEN     STG2.MG2
+ REPORT     OPEN     STG2.RP2
+ DEBUG      NO FILE
+
+
+
+ 2. UPPERAIR DATA
+
+ PROCESSING DATES: 01/01/2022 - 01/01/2023
+
+                    SITE ID     LATITUDE    LONGITUDE     TIME ADJUSTMENT
+                   --------     --------    ---------     ---------------
+ LOCATION:            99999       -27.67       -48.55             3
+
+ DATA FILE: NO FILENAME INPUT
+ EXTRACT FILE: NO FILENAME INPUT
+ QAOUT FILE:     OPEN      STG1.UQA
+
+ UPPER AIR DATA ABOVE 5000 NOT EXTRACTED
+
+ UPPER AIR AUTOMATIC DATA CHECKS ARE: OFF
+
+
+
+ 3. SURFACE DATA
+
+ PROCESSING DATES: 01/01/2022 - 01/01/2023
+
+                    SITE ID     LATITUDE    LONGITUDE     TIME ADJUSTMENT    ELEVATION
+                   --------     --------    ---------     ---------------    ---------
+ LOCATION:            66666       -28.45       -48.97             0              10.00
+
+ DATA FILE: NO FILENAME INPUT
+ ASOS1MIN FILE: NO FILENAME INPUT
+ EXTRACT FILE: NO FILENAME INPUT
+ QAOUT FILE:     OPEN      STG1.SQA
+
+
+
+ 4. ONSITE DATA
+
+ NO PROCESSING REQUESTED
+
+
+
+
+ 5. PROG DATA
+
+ NO PROCESSING REQUESTED
+
+
+
+
+ 6. METPREP DATA
+
+ PROCESSING DATES: 01/01/2022 - 01/01/2023
+
+                    SITE ID     LATITUDE    LONGITUDE     TIME ADJUSTMENT
+                   --------     --------    ---------     ---------------
+ LOCATION:            66666       -28.45       -48.97             3
+
+ OUTPUT FILE:    OPEN      METEO.SFC
+ PROFILE FILE:   OPEN      METEO.PFL
+
+ METPREP PROCESSING OPTIONS
+ PROCESS                     OPTION  DESCRIPTION
+
+ WIND DIRECTION              RANDOM  WIND DIRECTIONS ARE RAMDOMNIZED
+ REFLEVEL                    SUBNWS  NWS WINDS AND TEMPS SUBSTITUED FOR MISSING ONSITE DATA
+ CLOUD COVER                 SUB_CC  CLOUD COVER SUBSTITUTED
+ TEMPERATURE                 SUB_TT  TEMPERATURE SUBSTITUTED
+
+
+ ****************************  SFC CHARACTERISTICS SUMMARY **************************** 
+
+
+ PRIMARY SITE CHARACTERISTICS
+
+ MONTH-SEASON ASSIGNMENTS: SOUTHERN HEMISPHERE
+
+ SEASON     MONTHS
+ WINTER     JUNE       JULY       AUGUST    
+ SPRING     SEPTEMBER  OCTOBER    NOVEMBER  
+ SUMMER     JANUARY    FEBRUARY   DECEMBER  
+ AUTUMN     MARCH      APRIL      MAY       
+
+YEAR: 2022 FREQUENCY SEASONAL
+           NUMBER OF SECTORS:   8
+
+YEAR: 2023 FREQUENCY SEASONAL
+           NUMBER OF SECTORS:   8
+
+ YEAR   SEASON       BEGIN SECTOR    END SECTOR     ALBEDO      BOWEN RATIO    ROUGHNESS LENGTH (M)
+ 2022   WINTER         0.             45.           0.16         0.43          0.7250
+ 2022   WINTER        45.             90.           0.16         0.43          0.7824
+ 2022   WINTER        90.            135.           0.16         0.43          0.4735
+ 2022   WINTER       135.            180.           0.16         0.43          0.8720
+ 2022   WINTER       180.            225.           0.16         0.43          0.7518
+ 2022   WINTER       225.            270.           0.16         0.43          0.6052
+ 2022   WINTER       270.            315.           0.16         0.43          0.2926
+ 2022   WINTER       315.            360.           0.16         0.43          0.5803
+ 2022   SPRING         0.             45.           0.18         0.81          0.7317
+ 2022   SPRING        45.             90.           0.18         0.81          0.7916
+ 2022   SPRING        90.            135.           0.18         0.81          0.4786
+ 2022   SPRING       135.            180.           0.18         0.81          0.8617
+ 2022   SPRING       180.            225.           0.18         0.81          0.7517
+ 2022   SPRING       225.            270.           0.18         0.81          0.6101
+ 2022   SPRING       270.            315.           0.18         0.81          0.2697
+ 2022   SPRING       315.            360.           0.18         0.81          0.5965
+ 2022   SUMMER         0.             45.           0.19         0.98          0.7141
+ 2022   SUMMER        45.             90.           0.19         0.98          0.7751
+ 2022   SUMMER        90.            135.           0.19         0.98          0.4695
+ 2022   SUMMER       135.            180.           0.19         0.98          0.8443
+ 2022   SUMMER       180.            225.           0.19         0.98          0.7298
+ 2022   SUMMER       225.            270.           0.19         0.98          0.6013
+ 2022   SUMMER       270.            315.           0.19         0.98          0.1844
+ 2022   SUMMER       315.            360.           0.19         0.98          0.5635
+ 2022   AUTUMN         0.             45.           0.19         0.98          0.7141
+ 2022   AUTUMN        45.             90.           0.19         0.98          0.7751
+ 2022   AUTUMN        90.            135.           0.19         0.98          0.4695
+ 2022   AUTUMN       135.            180.           0.19         0.98          0.8443
+ 2022   AUTUMN       180.            225.           0.19         0.98          0.7298
+ 2022   AUTUMN       225.            270.           0.19         0.98          0.6013
+ 2022   AUTUMN       270.            315.           0.19         0.98          0.1844
+ 2022   AUTUMN       315.            360.           0.19         0.98          0.5635
+ 2023   WINTER         0.             45.           0.16         0.43          0.7250
+ 2023   WINTER        45.             90.           0.16         0.43          0.7824
+ 2023   WINTER        90.            135.           0.16         0.43          0.4735
+ 2023   WINTER       135.            180.           0.16         0.43          0.8720
+ 2023   WINTER       180.            225.           0.16         0.43          0.7518
+ 2023   WINTER       225.            270.           0.16         0.43          0.6052
+ 2023   WINTER       270.            315.           0.16         0.43          0.2926
+ 2023   WINTER       315.            360.           0.16         0.43          0.5803
+ 2023   SPRING         0.             45.           0.18         0.81          0.7317
+ 2023   SPRING        45.             90.           0.18         0.81          0.7916
+ 2023   SPRING        90.            135.           0.18         0.81          0.4786
+ 2023   SPRING       135.            180.           0.18         0.81          0.8617
+ 2023   SPRING       180.            225.           0.18         0.81          0.7517
+ 2023   SPRING       225.            270.           0.18         0.81          0.6101
+ 2023   SPRING       270.            315.           0.18         0.81          0.2697
+ 2023   SPRING       315.            360.           0.18         0.81          0.5965
+ 2023   SUMMER         0.             45.           0.19         0.98          0.7141
+ 2023   SUMMER        45.             90.           0.19         0.98          0.7751
+ 2023   SUMMER        90.            135.           0.19         0.98          0.4695
+ 2023   SUMMER       135.            180.           0.19         0.98          0.8443
+ 2023   SUMMER       180.            225.           0.19         0.98          0.7298
+ 2023   SUMMER       225.            270.           0.19         0.98          0.6013
+ 2023   SUMMER       270.            315.           0.19         0.98          0.1844
+ 2023   SUMMER       315.            360.           0.19         0.98          0.5635
+ 2023   AUTUMN         0.             45.           0.19         0.98          0.7141
+ 2023   AUTUMN        45.             90.           0.19         0.98          0.7751
+ 2023   AUTUMN        90.            135.           0.19         0.98          0.4695
+ 2023   AUTUMN       135.            180.           0.19         0.98          0.8443
+ 2023   AUTUMN       180.            225.           0.19         0.98          0.7298
+ 2023   AUTUMN       225.            270.           0.19         0.98          0.6013
+ 2023   AUTUMN       270.            315.           0.19         0.98          0.1844
+ 2023   AUTUMN       315.            360.           0.19         0.98          0.5635
+
+
+ ****************************  OBSERVATIONS PER DAY SUMMARY **************************** 
+
+
+ STARTING: 01-JAN-2022
+ ENDING: 01-JAN-2023
+
+                   ***** TOTAL OBSERVATION COUNTS *****
+
+ NWS UPPER AIR  OBS    699
+ NWS SURFACE    OBS   8758
+ ONSITE/PROG    OBS      0
+ 1-MIN ASOS HR  OBS      0
+
+                   ***** DAILY OUTPUT STATISTICS *****
+
+        2022 MO/DY:   01/01   01/02   01/03   01/04   01/05   01/06   01/07   01/08   01/09   01/10
+  NWS UPPER AIR  OBS    0       0       2       2       1       1       2       0       0       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   01/11   01/12   01/13   01/14   01/15   01/16   01/17   01/18   01/19   01/20
+  NWS UPPER AIR  OBS    2       2       2       2       0       0       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   01/21   01/22   01/23   01/24   01/25   01/26   01/27   01/28   01/29   01/30
+  NWS UPPER AIR  OBS    2       0       0       2       2       2       2       2       0       0
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   01/31   02/01   02/02   02/03   02/04   02/05   02/06   02/07   02/08   02/09
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   02/10   02/11   02/12   02/13   02/14   02/15   02/16   02/17   02/18   02/19
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   02/20   02/21   02/22   02/23   02/24   02/25   02/26   02/27   02/28   03/01
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   03/02   03/03   03/04   03/05   03/06   03/07   03/08   03/09   03/10   03/11
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   03/12   03/13   03/14   03/15   03/16   03/17   03/18   03/19   03/20   03/21
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       1       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   03/22   03/23   03/24   03/25   03/26   03/27   03/28   03/29   03/30   03/31
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   04/01   04/02   04/03   04/04   04/05   04/06   04/07   04/08   04/09   04/10
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   04/11   04/12   04/13   04/14   04/15   04/16   04/17   04/18   04/19   04/20
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   04/21   04/22   04/23   04/24   04/25   04/26   04/27   04/28   04/29   04/30
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   05/01   05/02   05/03   05/04   05/05   05/06   05/07   05/08   05/09   05/10
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   05/11   05/12   05/13   05/14   05/15   05/16   05/17   05/18   05/19   05/20
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   05/21   05/22   05/23   05/24   05/25   05/26   05/27   05/28   05/29   05/30
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   05/31   06/01   06/02   06/03   06/04   06/05   06/06   06/07   06/08   06/09
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   06/10   06/11   06/12   06/13   06/14   06/15   06/16   06/17   06/18   06/19
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       1       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   06/20   06/21   06/22   06/23   06/24   06/25   06/26   06/27   06/28   06/29
+  NWS UPPER AIR  OBS    2       2       2       1       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   06/30   07/01   07/02   07/03   07/04   07/05   07/06   07/07   07/08   07/09
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   07/10   07/11   07/12   07/13   07/14   07/15   07/16   07/17   07/18   07/19
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   07/20   07/21   07/22   07/23   07/24   07/25   07/26   07/27   07/28   07/29
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   07/30   07/31   08/01   08/02   08/03   08/04   08/05   08/06   08/07   08/08
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       1       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   08/09   08/10   08/11   08/12   08/13   08/14   08/15   08/16   08/17   08/18
+  NWS UPPER AIR  OBS    2       0       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   08/19   08/20   08/21   08/22   08/23   08/24   08/25   08/26   08/27   08/28
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   08/29   08/30   08/31   09/01   09/02   09/03   09/04   09/05   09/06   09/07
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   09/08   09/09   09/10   09/11   09/12   09/13   09/14   09/15   09/16   09/17
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   09/18   09/19   09/20   09/21   09/22   09/23   09/24   09/25   09/26   09/27
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   09/28   09/29   09/30   10/01   10/02   10/03   10/04   10/05   10/06   10/07
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       1       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   10/08   10/09   10/10   10/11   10/12   10/13   10/14   10/15   10/16   10/17
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   10/18   10/19   10/20   10/21   10/22   10/23   10/24   10/25   10/26   10/27
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   10/28   10/29   10/30   10/31   11/01   11/02   11/03   11/04   11/05   11/06
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   11/07   11/08   11/09   11/10   11/11   11/12   11/13   11/14   11/15   11/16
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   11/17   11/18   11/19   11/20   11/21   11/22   11/23   11/24   11/25   11/26
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   11/27   11/28   11/29   11/30   12/01   12/02   12/03   12/04   12/05   12/06
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   12/07   12/08   12/09   12/10   12/11   12/12   12/13   12/14   12/15   12/16
+  NWS UPPER AIR  OBS    2       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+        2022 MO/DY:   12/17   12/18   12/19   12/20   12/21   12/22   12/23   12/24   12/25   12/26
+  NWS UPPER AIR  OBS    0       2       2       2       2       2       2       2       2       2
+  NWS SURFACE    OBS   24      24      24      24      24      24      24      24      24      24
+  ONSITE/PROG    OBS    0       0       0       0       0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0       0       0       0       0
+
+     2022-23 MO/DY:   12/27   12/28   12/29   12/30   12/31   01/01
+  NWS UPPER AIR  OBS    2       2       2       2       2       0
+  NWS SURFACE    OBS   24      24      24      24      22       0
+  ONSITE/PROG    OBS    0       0       0       0       0       0
+  1-MIN ASOS HR  OBS    0       0       0       0       0       0
+
+
+ ****************************  PBL PROCESSING SUMMARY **************************** 
+
+ NUMBER OF DAYS WITH NO CONVECTIVE CONDITIONS:     17
+
+ NUMBER OF TOTAL CALMS:    110
+ NUMBER OF VARIABLE WINDS:    222
+
+
+
+ NUMBER OF SUBSTITUTIONS (INTERPOLATION) FOR MISSING CLOUD COVER:    157
+
+ NUMBER OF SUBSTITUTIONS (INTERPOLATION) FOR MISSING TEMPERATURE:      3
+
+ NUMBER OF BAD SURFACE RECORDS IN SURFACE FILE:        7
+     NUMBER OF OVERFLOW RECORDS VARIABLE U*            7
+     NUMBER OF OVERFLOW RECORDS VARIABLE L             3
+
+ NUMBER OF BAD PROFILE RECORDS IN SURFACE FILE:        0
+
+
+ ****************************  MESSAGE SUMMARY **************************** 
+
+
+
+ ERROR MESSAGES       10 MESSAGES
+
+ E84:       10
+
+
+ WARNING MESSAGES      347 MESSAGES
+
+ W54:        1
+ W70:        1
+ W76:      345
+
+
+ INFORMATION MESSAGES     2295 MESSAGES
+
+ I01:        1
+ I20:        2
+ I23:        1
+ I24:        1
+ I25:        1
+ I26:        1
+ I28:       13
+ I40:        2
+ I46:        1
+ I47:        1
+ I70:        1
+ I71:      737
+ I72:      104
+ I75:      975
+ I77:      408
+ I78:       17
+ I79:       28
+ I84:        1
+
+
+ QA MESSAGES        0 MESSAGES
+
+
+
+ AERMET FINISHED SUCCESSFULLY
+
+ END PROCESSING DATE/TIME: NOVEMBER 14, 2024  13:37:24 PM

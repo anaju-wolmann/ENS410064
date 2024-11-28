@@ -1,0 +1,105 @@
+** AERMAP - VERSION 18081                                              11/14/24
+**                                                                     13:37:24
+
+CO STARTING
+CO TITLEONE  AERMAP
+CO TERRHGTS  EXTRACT
+CO DATATYPE  NED     FILLGAPS
+CO DATAFILE  mergedSRTM.tif
+   ANCHORXY  698863.0 6850795.0 698863.0 6850795.0 -22 3
+   FLAGPOLE  1.5
+CO RUNORNOT  RUN
+CO FINISHED
+RE STARTING
+   GRIDCART CART01 STA
+                    XYINC 673863.0 10 5000.0 6825795.0 10 5000.0
+   GRIDCART CART01 END
+RE FINISHED
+OU STARTING
+   RECEPTOR  RECEPT.ROU
+OU FINISHED
+
+ Exiting NEDCHK
+  
+ Finished Reading Input NED Data
+  
+ Exiting CHKADJ
+ Exiting RECCNV
+ Exiting DEMREC
+ *** AERMAP - VERSION 18081 ***    ***  AERMAP                                                              ***        11/14/24
+                                   ***                                                                      ***        13:37:24
+
+
+  *** Message Summary For AERMAP Setup ***
+
+ --------- Summary of Total Messages --------
+  
+ A Total of          0 Fatal Error Message(s)
+ A Total of          4 Warning Message(s)
+ A Total of          0 Informational Message(s)
+  
+  
+    ******** FATAL ERROR MESSAGES ******** 
+               ***  NONE  ***         
+  
+  
+    ********   WARNING MESSAGES   ******** 
+ RE W216      13 RECART:FLAG Input Inconsistent With Option: Defaults Used       CART01
+ OU W450      17 NEDCHK:Parameter not found in TIFF file.  TiffTag:                 274
+ OU W470      17 NEDCHK:Unexpected datum for NED file encountered:                WGS84
+ OU W473      17 NEDCHK:Default elevation units of METERS used; NED file:             1
+
+ ***********************************
+ *** SETUP Finishes Successfully ***
+ ***********************************
+
+ *** AERMAP - VERSION 18081 ***    ***  AERMAP                                                              ***        11/14/24
+                                   ***                                                                      ***        13:37:24
+
+
+                                            ***     AERMAP SETUP OPTIONS SUMMARY       ***
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  
+ **This Run Includes:       1  NED File(s)
+  
+ **This Run Includes:     100  Receptor(s); and        0  Source(s)
+  
+ **The Input Receptors and Sources Were Assigned a NADA Value of  3:  World Geodetic System of 1984           
+
+ **The Input Receptors and Sources Are Offset:        0.00 meters East;         0.00 meters North
+      from the User-specified Anchor Point at:   698863.00 meters East;   6850795.00 meters North;  Zone -22
+  
+ **Terrain heights were EXTRACTed from NED data
+  
+ **The Following Debug Output Files Have Been Automatically Generated:
+
+   DOMDETAIL.OUT - Details of User-specified Domain and Relation to NED Files
+   MAPDETAIL.OUT - Details Regarding Input NED Files
+   MAPPARAMS.OUT - Summary of NED File Parameters and NED File Adjacency
+ *** AERMAP - VERSION 18081 ***    ***  AERMAP                                                              ***        11/14/24
+                                   ***                                                                      ***        13:37:24
+
+ *** Message Summary For AERMAP Execution ***
+
+ --------- Summary of Total Messages --------
+  
+ A Total of          0 Fatal Error Message(s)
+ A Total of          4 Warning Message(s)
+ A Total of          0 Informational Message(s)
+  
+  
+    ******** FATAL ERROR MESSAGES ******** 
+               ***  NONE  ***         
+  
+  
+    ********   WARNING MESSAGES   ******** 
+ RE W216      13 RECART:FLAG Input Inconsistent With Option: Defaults Used       CART01
+ OU W450      17 NEDCHK:Parameter not found in TIFF file.  TiffTag:                 274
+ OU W470      17 NEDCHK:Unexpected datum for NED file encountered:                WGS84
+ OU W473      17 NEDCHK:Default elevation units of METERS used; NED file:             1
+
+    ************************************
+    *** AERMAP Finishes Successfully ***
+    ************************************
+
